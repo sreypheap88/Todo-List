@@ -1,0 +1,224 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(214, 214, 231);
+    margin: 0;
+    padding: 0;
+}
+/* start navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 10, 156);
+}
+.icon{
+    margin-left: 3%;
+    width: 8%;
+}
+.sign{
+    gap: 10px;
+    margin: 10px;
+    width: 20%;
+    display: flex;
+}
+.in{
+    background-color: rgb(164, 189, 244);
+}
+.in:hover{
+    background-color: rgb(69, 69, 192);
+}
+.up{
+    background-color: orange;
+}
+.up:hover{
+    background-color: rgb(142, 104, 37);
+}
+ul{
+    margin-right: 3%;
+    display: flex;
+    list-style: none;
+}
+a{
+    font-weight: bolder;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(194, 146, 57);
+}
+
+/* start btn create product  */
+.hr{
+    border: 1px solid rgb(17, 10, 156);
+    width: 98%;
+    margin-top: 10px;
+}
+.add-product{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 30%;
+    cursor: pointer;
+}
+#add-product{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(17, 10, 156);
+}
+#add-product:hover{
+    background-color: rgb(11, 11, 107);
+}
+
+/* start info in form dialoge  */
+h2{
+    font: bold;
+    color: white;
+}
+dialog{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background: rgb(155, 185, 239);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+input[type=text], 
+input[type=number]{
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+}
+#gender{
+    padding: 10px;
+    width: 93%;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    color: white;
+    width: 46%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.cancel{
+    margin-bottom: 10px;
+    background-color: rgb(193, 14, 14);
+}
+.add{
+    margin-bottom: 10px;
+    background-color: rgb(17, 10, 156);
+}
+.cancel:hover{
+    color: white;
+    background-color: rgb(126, 10, 10);
+}
+.add:hover{
+    color: white;
+    background-color: rgb(18, 13, 112);
+}
+h1{
+    text-align: center;
+    color: rgb(17, 10, 156);
+}
+
+/* start card  */
+.container-card{
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 5px;
+    width: 19%;
+    gap: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+.card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border: 2px solid rgba(11, 11, 121, 0.884);
+}
+img{
+    margin-top: 3%;
+    width: 50%;
+}
+.edit, .delete{
+    border-radius: 5px;
+    padding: 4%;
+    width: 40%;
+    margin: 2px;
+    border: none;
+    margin-bottom: 7%;
+}
+.edit{
+    background-color: rgb(17, 10, 156);
+}
+.delete{
+    background-color: rgb(193, 14, 14);
+}
+.edit:hover{
+    background-color: rgb(18, 13, 112);
+}
+.delete:hover{
+    background-color: rgb(126, 10, 10);
+}
+
+/* footer  */
+.footer{
+    margin-top: 5%;
+    color: white;
+    background-color: rgb(17, 10, 156);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+span{
+    color: orange;
+}
+.premium,.premium-center,.premium-right{
+    padding: 30px;
+}
+.premium-center{
+    border-left: 1px solid;
+    width: 40%;
+}
+.now,.info{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px;
+    width: 70%;
+    color: white;
+    border: none;
+    margin: 3px;
+}
+.now{
+    background-color: orange;
+}
+.info{
+    background-color: rgb(164, 189, 244);
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.account>p{
+    text-align: center;
+}
+.account{
+    padding: 10px;
+}
+.icons>img{
+    width: 25px;
+}
+.large{
+    cursor: pointer;
+}

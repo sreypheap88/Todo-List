@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://uxwing.com/star-icon/">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Todo-List</title>
+</head>
+<body>
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="icon">
+            <img src="img/female.png" alt="">
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+        <div class="sign">
+            <button class="in">sign-in</button>
+            <button class="up">sign-up</button>
+        </div>
+    </div>
+
+    <!-- add product button  -->
+    <div class="add-product">
+        <button id="add-product" onclick=" onAddButton()">Create User</button>
+    </div>
+    <hr class="hr">
+
+    <!-- dialoge for add product  -->
+    <div class="container-dialog" style="display: none;">
+        <dialog open>
+            <section>
+                <h2 id="header2">Form Create User</h2>
+                <input type="text" id="full-name" name="full-name" placeholder="full name"><br><br>
+                <select name="gender" id="gender">
+                    <option value="" selected disabled>Select your gender</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select><br><br>
+                <input type="number" id="age" name="age" placeholder="user age"><br><br>
+            </section>
+            <button onclick="onCancel(event)" class="cancel" id="cancel-user">Cancel</button>
+            <button onclick="createUser(event)" class="add" id="add-user">Create</button>
+        </dialog>
+    </div>
+    <h1>Welcome To Our Todo LisT</h1>
+    <!-- card  -->
+    <div class="container-card"></div>
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="premium">
+            <h3>NKY<span>GROCERIES</span></h3>
+            <p>PREMIUM CUSTOMERS</p>
+        </div>
+        <div class="premium-center">
+            <p>Want Addcoral Discunts on Every Shopping? Enjoy a varioty of special discount every day and experience shopping offer that fit your needs join Kkygroceries Premium Member Now lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, earum!</p>
+        </div>
+        <div class="premium-right">
+            <button class="now">Join Now</button>
+            <button class="info">More Info</button>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="menu">
+            <h3>NKY<span>GROCERIES</span></h3>
+            <p>Best Groceries app over Pick Your disired groceries from the menu</p>
+            <div class="icons"><br><br>
+                <img src="new-linkedin-logo-white-black-png.png" alt="">
+                <img src="5968982-removebg-preview.png" alt="" >
+                <img src="6422199.png" alt="" >
+                <img src="download-removebg-preview (4).png" alt="">
+            </div>
+        </div>        
+        <div class="account">
+            <h3><span>SUPPORT</span></h3>
+            <p>Account<br><br>Support Cortes<br><br>Feedback<br><br>Number</p>
+        </div>
+        <div class="account">
+            <h3><span>USERFULL LINK</span></h3>
+            <p>Account<br><br>Support Cortes<br><br>Feedback<br><br>Number</p>
+        </div>
+        <div class="account">
+            <h3><span>OUR MANU</span></h3>
+            <p>Account<br><br>Support Cortes</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
